@@ -1,0 +1,20 @@
+{
+  "name": "addon2m3u",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bunx wrangler dev src/index.ts --port 8787 --ip 0.0.0.0",
+    "dev:worker": "bunx wrangler dev src/index.ts --port 8787 --ip 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "hono": "^4.7.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250214.0",
+    "typescript": "^5.7.3",
+    "wrangler": "^3.114.0"
+  }
+}

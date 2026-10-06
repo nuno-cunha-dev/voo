@@ -1,0 +1,7 @@
+name = "addon2m3u"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+[vars]
+ADDON_BASE = "https://tvvoo.hayd.uk"
+CATALOG_TTL_SECONDS = "21600"
