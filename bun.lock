@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "addon2m3u",
+      "name": "voo",
       "dependencies": {
         "hono": "^4.7.0",
       },

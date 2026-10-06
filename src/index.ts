@@ -1,5 +1,5 @@
 /**
- * addon2m3u — Portugal M3U service with lazy watch-time resolving.
+ * voo — Portugal M3U service with lazy watch-time resolving.
  *
  * - GET /playlist.m3u (+ alias /pt.m3u): M3U with OUR internal /watch/ URLs
  * - GET /watch/:id: 302 to the live NoFreeze URL (resolved at watch-time)

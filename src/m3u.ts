@@ -75,7 +75,7 @@ export function isUsableLogo(logo: string | undefined): boolean {
  * NoFreeze URL is resolved at watch-time, never embedded.
  *
  * @param metas - Catalog entries
- * @param baseUrl - Public origin (e.g. https://addon2m3u.workers.dev), no trailing slash
+  * @param baseUrl - Public origin (e.g. https://voo.workers.dev), no trailing slash
  * @returns M3U playlist text
  */
 export function buildM3U(metas: PortugalMeta[], baseUrl: string): string {
